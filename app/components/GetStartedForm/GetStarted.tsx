@@ -58,10 +58,6 @@ const GetStarted = (props: Props) => {
     const updatedWords = words.filter((_, i) => i !== index);
     setWords(updatedWords);
   };
-
-  useEffect(() => {
-    dispatch(initTopicsFromSStorage());
-  }, [dispatch]); 
   
   return (
     <div className='container flex flex-col max-w-[900px] mx-auto my-10'>

@@ -61,10 +61,6 @@ function Overview() {
     setUpdatedTopicTitle(editTopic ? editTopic.topicTitle : '');
   }, [editTopicOn && editTopicId]);
 
-  useEffect(() => {
-    dispatch(initTopicsFromSStorage());
-  }, [dispatch]); 
-
   return (
     <div className='container flex flex-col max-w-[900px] mx-auto my-10'>
       <h1 className='text-[3rem] font-bold text-center'>GetStarted</h1>
