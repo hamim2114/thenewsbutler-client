@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import {
-  initTopicsFromSStorage,
   removeTopic,
   updateTopic,
 } from '@/redux/features/topicSlice';

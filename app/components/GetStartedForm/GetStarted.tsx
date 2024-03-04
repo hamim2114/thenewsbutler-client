@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import { useAppDispatch, useAppSelector } from '@/redux/hooks';
-import { addTopic, initTopicsFromSStorage, removeTopic } from '@/redux/features/topicSlice';
+import { addTopic, removeTopic } from '@/redux/features/topicSlice';
 import Link from 'next/link';
 import { Plus } from 'lucide-react';
 

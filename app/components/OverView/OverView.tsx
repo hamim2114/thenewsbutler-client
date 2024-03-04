@@ -1,5 +1,5 @@
 'use client';
-import { initTopicsFromSStorage, removeTopic, updateTopic } from '@/redux/features/topicSlice';
+import { removeTopic, updateTopic } from '@/redux/features/topicSlice';
 import { useAppDispatch, useAppSelector } from '@/redux/hooks';
 import { GripVertical, Pencil, Plus, Trash2, X } from 'lucide-react';
 import Link from 'next/link';

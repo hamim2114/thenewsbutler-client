@@ -11,7 +11,7 @@ interface InitialState {
 }
 
 const initialState: InitialState = {
-  allTopics: []
+  allTopics: [],
 };
 
 const topicSlice = createSlice({
@@ -20,7 +20,7 @@ const topicSlice = createSlice({
   reducers: {
     addTopic: (state, action: PayloadAction<Topic>) => {
       const newTopic = action.payload;
-      state.allTopics.push(newTopic); 
+      state.allTopics.push(newTopic);
     },
     removeTopic: (state, action: PayloadAction<number>) => {
       const topicIdToRemove = action.payload;
@@ -33,6 +33,7 @@ const topicSlice = createSlice({
       state.allTopics = state.allTopics.map((topic) =>
         topic.id === editedTopic.id ? editedTopic : topic
       );
+    },
   },
 });
 
