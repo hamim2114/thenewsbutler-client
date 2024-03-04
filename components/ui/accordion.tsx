@@ -6,6 +6,7 @@ import { ChevronDownIcon } from '@radix-ui/react-icons';
 interface AccordionItemProps {
   children?: ReactNode;
   className?: string;
+  value: string;
 }
 
 export const AccordionItem = forwardRef<HTMLDivElement, AccordionItemProps>(
