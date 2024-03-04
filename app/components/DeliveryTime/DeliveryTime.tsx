@@ -12,7 +12,7 @@ const DeliveryTime: FC = () => {
       <h4 className='text-center text-[20px]'>Choose your delivery time</h4>
       <p className='py-8 text-center max-w-[700px] self-center'>
         Each day, your brief will arive in your inbox at the following time.You
-        can change it to whatever you'd like! The news in your brief will be
+        can change it to whatever you would like! The news in your brief will be
         from within 24 hours prior to delivery.
       </p>
       <div className='flex gap-2'>
