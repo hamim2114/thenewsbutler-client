@@ -61,7 +61,7 @@ const GetStarted = (props: Props) => {
 
   useEffect(() => {
     dispatch(initTopicsFromSStorage());
-  }, []); 
+  }, [dispatch]); 
   
   return (
     <div className='container flex flex-col max-w-[900px] mx-auto my-10'>
